@@ -20,8 +20,8 @@ while running:
             running = False
     window.fill(bg)
 
-    player1.update()
-    player2.update()
+    player1.updateP1()
+    player2.updateP2()
     reset(player1)
     reset(player2)
 
