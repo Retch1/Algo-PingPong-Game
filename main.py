@@ -22,7 +22,7 @@ def reset(player: Player):
 
 player1 = Player("sprites/paddle.png", 10, 200, 50, 100, 5)
 player2 = Player("sprites/paddle.png", 750, 200, 50, 100, 5)
-ball = GameSprite("sprites/ball.png", 370, 200, 25, 25, 2)
+ball = GameSprite("sprites/ball.png", 370, 200, 25, 25, 3)
 
 running = True
 finish = False
